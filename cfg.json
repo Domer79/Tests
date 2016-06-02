@@ -1,0 +1,26 @@
+﻿{
+  "settings": {
+    "imapHost": "imap.yandex.ru",
+    "imapPort": "993",
+    "imapSecure": true,
+    "imapUser": "Domer79",
+    "imapPassword": "Garipov&9",
+    "attachmentDir": "C:/Projects/Tests/attachmentDir",
+    "messageDir": "C:/Projects/Tests/MessageDir",
+    "logFileName": "c:/Projects/Tests/imap.log",
+    "rarPasswords": ["pass1", "pass2", "123"],
+    "archiveMaxDepth": "5",
+    "logger": "db",
+    "dbConfig": {
+      "server": "192.168.204.1",
+      "database": "ImapLog",
+      "user": "imapuser",
+      "password": "imapuser",
+      "driver": "tedious",
+	  "connectionTimeout": "120000",
+	  "pool": {
+		"max": 1000
+	  }
+    }
+  }
+}

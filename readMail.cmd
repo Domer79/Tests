@@ -1,0 +1,1 @@
+node c:\projects\tools\nodejs\Projects\Inbox\Inbox\readMail.js C:\Projects\Tests\cfg
